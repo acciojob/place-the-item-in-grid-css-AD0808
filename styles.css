@@ -5,8 +5,8 @@
     display: grid;
     width: 200px; /* Total size of grid */
     height: 200px;
-    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
-    grid-template-rows: repeat(2, 1fr); /* Creates 2 equal rows */
+    grid-template-columns: 100px 100px;/* Creates 2 equal columns */
+    grid-template-rows: 100px 100px; /* Creates 2 equal rows */
     gap: 5px; /* Optional: Adds spacing between grid items */
     border: 2px solid black; /* Optional: Just to visualize the grid */
 }
